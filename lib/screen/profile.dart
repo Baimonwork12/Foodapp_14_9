@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:food_app/screen/login.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -28,6 +30,7 @@ class _ProfileState extends State<Profile> {
         child: OutlinedButton(onPressed: (){
           signOutGoogle();
         }, child: Text('log out')),
+        Text('data')
       ),
     );
   }
